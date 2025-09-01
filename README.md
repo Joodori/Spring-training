@@ -117,63 +117,50 @@ Perplexity said
 
 느슨한 결합: A는 추상화된 Service를 바라보고, 다양한 구현체를 자유롭게 교체할 수 있는 ‘유연한 존재’
 ```
+---
+
+## Bean 이란
+---
+
+
+### spring-context.xml
+```java
+	<bean id="service" class="myjdbc.EmpServiceImpl">
+		<property name="DAO" ref="empDAO"></property>
+	</bean>
+	<bean id="empDAO" class="myjdbc.EmpDAO"></bean>
+```
 
 ---
-## Bean 이란
-ㅁㄴㅇㅁㄴㅇㅁㄴ
+### EmpMainSpring.java
+```java
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+		EmpService service = (EmpService) context.getBean("service");
+		List<Emp> empList = service.getEmpListByDeptNo(deptNo);
+		for (Emp emp : empList) {
+			System.out.println(emp);
+		}
+```
 
-ㅁㄴㅇ
-ㅁㄴㅇ
+---
+### EmpServieceImpl.java
+```java
+public class EmpServiceImpl implements EmpService {
 
-ㅁㄴㅇ
+	EmpDAO dao;
+	
+	@Override
+	public void setDAO(EmpDAO dao) {
+		// TODO Auto-generated method stub
+		this.dao = dao;
+	}
 
-ㅁㄴㅇ
-ㅁㄴㅇㅁㄴㅇㅁ
-ㄴ
-ㄴ
-ㅁㅇ
-ㅁㄴ
-ㅇㅁㄴ
-ㅇ
-ㅁㄴ
-ㅇㅁㄴㅇㅁ
+	@Override
+	public List<Emp> getEmpListByDeptNo(int deptNo) throws Exception {
+		// TODO Auto-generated method stub
+		return dao.getEmpListByDeptNo(deptNo);
+	}
 
-
-
-
-ㅁㄴㅇ
-
-
-ㅁㄴㅇ
-
-ㄴㅇ
-
-ㄴ
-ㄴ
-
-
-ㄴ
-
-ㄴ
-
-
-ㄴ
-
-ㄴ
-
-ㄴ
-
-
-ㄴ
-
-
-ㄴ
-
-
-ㄴ
-
-
-ㄴ
-
-
-ㅁㄴㅇㅁㄴㅇ
+}
+```
+----
