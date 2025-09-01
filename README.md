@@ -130,6 +130,9 @@ Perplexity said
 	</bean>
 	<bean id="empDAO" class="myjdbc.EmpDAO"></bean>
 ```
+---
+나는 이 부분을 공부할 때 bean이 대체 어떤 기능을 가진건지 잘 모르겠었는데
+일단 service라는 이름으로 꺼낼 수 있는 기능이 있나보다 -> bean id = "service"
 
 ---
 ### EmpMainSpring.java
@@ -141,6 +144,13 @@ Perplexity said
 			System.out.println(emp);
 		}
 ```
+---
+ApplicationContext라는 Interface에서부터 시작된 context를 통해 spring-context.xml에서 beans를 읽어볼게
+거기서 아까 봤던 service라는 id를 끌어와서 변수명을 service로 할게
+service에대한 자료형은 EmpService로 할건데 EmpService는 Interface인데 그것을 상속받는 친구는 EmpServiceImpl이야
+
+그렇다면 여기서 service에 대한 자료형은 ServiceImpl이 되어야 한다는 것을 알아야해
+바로 몰라도 다음 줄인 getEmpListByDeptNo를 보고 알 수 있어야해
 
 ---
 ### EmpServieceImpl.java
@@ -163,4 +173,8 @@ public class EmpServiceImpl implements EmpService {
 
 }
 ```
+---
+EmpServiceImpl을 뜯어보니 여기서 쓸 수 있기 때문에
+우리는 service라는 id로 끌어온 bean에 대한 자료형이 EmpServiceImpl이라는 것을 알 수 있었구나
+또한 여기서 의존성 주입개념이 있는 것 같은데 거기까지는 잘 모르겠어서 다음에 와서 또 해야함
 ----
