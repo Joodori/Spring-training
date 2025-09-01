@@ -8,13 +8,13 @@
     public class B {
     public void doSomething() {
         System.out.println("Doing something in B");
+        }
     }
-}
+    
+    public class A {
+        private B b;
 
-public class A {
-    private B b;
-
-    public A() {
+   public A() {
         this.b = new B();  // 강한 결합
     }
 
