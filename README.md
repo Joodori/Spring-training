@@ -5,7 +5,7 @@
 
 ***
 
-```
+```java
 public class B {
 public void doSomething() {
 System.out.println("Doing something in B");
