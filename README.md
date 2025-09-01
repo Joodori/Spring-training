@@ -177,4 +177,3 @@ public class EmpServiceImpl implements EmpService {
 EmpServiceImpl을 뜯어보니 여기서 쓸 수 있기 때문에
 우리는 service라는 id로 끌어온 bean에 대한 자료형이 EmpServiceImpl이라는 것을 알 수 있었구나
 또한 여기서 의존성 주입개념이 있는 것 같은데 거기까지는 잘 모르겠어서 다음에 와서 또 해야함
-----
