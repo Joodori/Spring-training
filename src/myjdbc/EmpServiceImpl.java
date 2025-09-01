@@ -1,0 +1,22 @@
+package myjdbc;
+
+import java.util.List;
+
+// EmpServiceImpl이 EmpDAO를 의존하고 있다.
+public class EmpServiceImpl implements EmpService {
+
+	EmpDAO dao;
+	
+	@Override
+	public void setDAO(EmpDAO dao) {
+		// TODO Auto-generated method stub
+		this.dao = dao;
+	}
+
+	@Override
+	public List<Emp> getEmpListByDeptNo(int deptNo) throws Exception {
+		// TODO Auto-generated method stub
+		return dao.getEmpListByDeptNo(deptNo);
+	}
+
+}
