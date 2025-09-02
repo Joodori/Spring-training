@@ -2,6 +2,7 @@
 *   [의존성 주입](#의존성-주입)
 *   [Bean 이란?](#Bean-이란)
 *   [인터페이스?](#인터페이스)
+*   [인터페이스?](#인터페이스)
    
 
 ---
@@ -183,27 +184,42 @@ EmpServiceImpl을 뜯어보니 여기서 쓸 수 있기 때문에
 ---
 ## 인터페이스
 
-ㅁㄴㅇㅁㄴㅇ
+```java
+//		EmpService service = (EmpService) context.getBean("empServiceImpl");
+//		==
+		EmpService service = (EmpService) context.getBean(EmpService.class);
+		List<Emp> empList = service.getEmpListByDeptNo(deptNo);
+```
+---
+이 부분에서 service라는 객체는 인터페이스를 받고있는데 getEmpListByDeptNo를 어떻게 쓰는지
 
-ㅁㄴㅇ
+엄청 명확하게 설명하지 못하는거 같아서 자세하게 찾아봤다.
 
-ㄴㄴ
+일단 EmpService(I)는 메서드가 "선언"만 되어있는 상태이고 그것들을 구현하는 장소는 EmpServiceImpl(C)이다.
 
-ㄴ
+근데 어떻게 EmpService라는 인터페이스로 바로 쓸 수 있지? 라는 생각이 들었다. 
 
-ㄴ
+Java의 다형성 때문에 인터페이스를 imnplements받아서 메서드를 구현할 때 @override라는 것들을 봤을텐데
 
-ㄴ
+이것이 바로 다형성(polymorphism)이라는 것이다. 그렇기 때문에 우리는 재정의된 메서드를 사용할 수 있었던 것이다.
 
-ㄴ
+```
+Q) service라는 객체는 getEmpListByDeptNo를 쓸 수 있나요?
 
-ㄴ
+A) EmpService라는 인터페이스를 EmpServiceImpl에서 구현하고있기 때문입니다 !
+```
 
-ㄴ
 
-ㄴ
 
-ㄴ
 
-ㄴ
 
+
+
+
+
+
+
+
+---
+나중에 버젼 맞출때 필요할듯!
+https://mybatis.org/spring/
