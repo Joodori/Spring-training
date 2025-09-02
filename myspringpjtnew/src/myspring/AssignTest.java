@@ -1,0 +1,112 @@
+package myspring;
+
+import java.util.InputMismatchException;
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AssignTest { // 입사년도, 부서번호
+	public static void main(String[] args) throws Exception {
+
+		Scanner scan = new Scanner(System.in);
+		int yes = 10;
+
+		while (yes != 0) {
+			System.out.println("<원하는 검색방법 번호를 입력하세요>(0 입력시 종료됩니다)");
+			System.out.println("1.이름 2.입사년도 3. 부서번호 4. 도시이름");
+			try {
+				yes = scan.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("숫자로 다시 입력해주세요.");
+				scan.nextLine();
+				continue;
+			}
+			switch (yes) {
+			case 1:
+				searchByName();
+				break;
+			case 2:
+				searchByYear();
+				break;
+			case 3:
+				searchByDeptId();
+				break;
+			case 4:
+				searchByCity();
+				break;
+			default:
+				System.out.println("선택지에 없는 번호입니다.");
+				break;
+			}
+		}
+		scan.close();
+		System.out.println("-프로그램 종료-");
+	}
+
+	// 1. 질문 : 사용자의 이름으로 검색기능이 있는가
+	private static void searchByName() throws Exception {
+		System.out.println("이름: ");
+		Scanner scan = new Scanner(System.in);
+		String firstName = scan.nextLine();
+		EmpService service = setService();
+		printList(service.findEmpByFirstName(firstName));
+	} 
+
+	//
+	private static void searchByCity() throws Exception {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("도시 목록");
+		System.out.println("Roma, Venice, Tokyo, Hiroshima, Southlake, South San Francisco, South Brunswick, Seattle");
+		System.out.println("Toronto, Whitehorse, Beijing, Bombay, Sydney, Singapore, London, Oxford, Stretford");
+		System.out.println("Munich, Sao Paulo, Geneva, Bern, Utrecht, Mexico City");
+		System.out.print("도시 이름은? : ");
+		String city = scan.nextLine();
+		while (city != "") {
+			EmpService service = setService();
+			printList(service.findEmpByCityName(city));
+			System.out.print("입력값 없을 시 종료 : ");
+			city = scan.nextLine();
+		}
+	}
+
+	private static void searchByDeptId() throws Exception {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("부서번호 입력 (0입력시 종료됩니다) : ");
+		int dept = scan.nextInt();
+		while (dept != 0) {
+			EmpService service = setService();
+			printList(service.findEmpByDeptId(dept));
+			System.out.println("부서번호 입력 (0입력시 종료됩니다) : ");
+			dept = scan.nextInt();
+		}
+	}
+
+	private static void searchByYear() throws Exception {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("입사연도 입력<YYYY> (0입력시 종료됩니다) : ");
+		int year = scan.nextInt();
+		while (year != 0) {
+
+			EmpService service = setService();
+			printList(service.findEmpByYear(year));
+			System.out.println("입사연도 입력<YYYY> (0입력시 종료됩니다) : ");
+			year = scan.nextInt();
+		}
+	}
+
+	public static EmpService setService() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+		return context.getBean(EmpService.class);
+	}
+
+	public static void printList(List<Emp> list) {
+		if (list.size() == 0) {
+			System.out.println("그런 정보를 가진 직원은 없어요");
+		}
+		for (Emp emp : list) {
+			System.out.println(emp);
+		}
+	}
+}

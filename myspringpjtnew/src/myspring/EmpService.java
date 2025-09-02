@@ -1,0 +1,21 @@
+package myspring;
+
+import java.util.List;
+
+public interface EmpService {
+
+
+
+	// 메서드를 선언한 것
+	public List<Emp> getEmpListByDeptNo(int deptNo) throws Exception;
+
+	List<Emp> findEmpByYear(int year) throws Exception;
+	
+	List<Emp> findEmpByDeptId(int deptId) throws Exception;
+
+	List<Emp> findEmpByFirstName(String firstName) throws Exception;
+	
+	List<Emp> findEmpByCityName(String cityName) throws Exception;
+
+	List<Emp> getEmpByFirstNLastName(String firstName, String lastName);
+}
