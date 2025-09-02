@@ -8,8 +8,7 @@
 ---
 ## 의존성 주입
 ***
-
-<https://lincoding.tistory.com/76> 를 참고했어요
+의존성 주입 부분은 <https://lincoding.tistory.com/76> 를 참고했어요
 
 ***
 
@@ -208,7 +207,7 @@ Q) service라는 객체는 getEmpListByDeptNo를 쓸 수 있나요?
 
 A) EmpService라는 인터페이스를 EmpServiceImpl에서 구현하고있기 때문입니다 !
 ```
-그렇다면 
+그렇다면 우리는   
 
 
 
