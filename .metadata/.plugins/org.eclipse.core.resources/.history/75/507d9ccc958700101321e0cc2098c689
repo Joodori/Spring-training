@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	https://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="service" class="myjdbc.EmpServiceImpl">
+		<property name="DAO" ref="empDAO"></property>
+	</bean>
+	<bean id="empDAO" class="myjdbc.EmpDAO"></bean>
+</beans>
+
+	<!-- 밑에있는 property에 대한 name은 driverClassName => BasicDataSource라는 클래스에 있는 setDriverClassName을 가져온 것임 -->
+<!-- 
+	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/newhr"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="rootroot"></property>
+	</bean>
+-->
+

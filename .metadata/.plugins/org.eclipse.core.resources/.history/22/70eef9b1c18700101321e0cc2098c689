@@ -1,0 +1,31 @@
+package myspring;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AssignTest { //입사년도, 부서번호
+	public static void main(String[] args) throws Exception {
+		int year = 2014;
+		int deptId = 80;
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+		EmpService service = (EmpService) context.getBean(EmpService.class);
+		
+		// 입사년도로 검색
+		System.out.println(year + "에 입사한 직원들을 알려줄게요");
+		List<Emp> empList = service.findEmpByYear(year);
+		for (Emp emp : empList) {
+			System.out.println(emp);
+		}
+		
+		// 부서번호로 검색
+		System.out.println(deptId + "에 존재하는 직원들을 알려줄게요");
+		System.out.println();
+		List<Emp> empList2 = service.findEmpByDeptId(deptId);
+		for (Emp emp : empList2) {
+			System.out.println(emp);
+		}
+	}
+}

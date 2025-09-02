@@ -1,0 +1,15 @@
+package customer;
+
+public class CoperateCustomer extends Customer {
+	String contactName;
+	int creditLimit;
+	int creditRating;
+	
+	public String getCreditRating(String name) {
+		String customerName = name;
+		
+		String rating = "xx";
+		
+		return rating;
+	}
+}

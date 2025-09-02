@@ -1,0 +1,45 @@
+package myspring;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.sql.DataSource;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class EmpDAO {
+	
+	@Autowired
+	DataSource dataSource;
+	
+	@Autowired
+	SqlSession session;
+	
+	/**
+	 *  ArrayList<Emp> findEmpByYear(int year)
+	 *  
+	 *  ArrayList<Emp> findEmpByDeptId(int deptId)
+	 * 
+	 * void printStat()
+	 * 
+	 * void findEmpByManagerName()
+	 * 
+	 * ArrayList<Emp> findByCity(String city)
+	 * 
+	 * ArrayList<Emp> findEmpByName(String firstName)
+	 * 
+	 */
+	
+	public List<Emp> findEmpByYear(int year){
+		return session.selectList("findEmpByYear", year);
+	}
+	
+	
+	
+}

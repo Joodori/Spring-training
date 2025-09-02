@@ -1,0 +1,20 @@
+package myspring;
+
+import java.util.List;
+
+public interface EmpService {
+
+	void setDAO(EmpDAO dao);
+
+	// 메서드를 선언한 것
+	public List<Emp> getEmpListByDeptNo(int deptNo) throws Exception;
+
+	List<Emp> findEmpByYear(int year) throws Exception;
+	
+	List<Emp> findEmpByDeptId(int deptId) throws Exception;
+	
+	List<Emp> findEmpByFirstName(String firstName) throws Exception;
+	
+	List<Emp> findEmpByCityName(String cityName) thorws Exception;
+
+}

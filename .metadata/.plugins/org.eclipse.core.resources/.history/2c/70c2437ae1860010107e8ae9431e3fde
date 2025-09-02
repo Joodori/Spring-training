@@ -1,0 +1,11 @@
+package customer;
+
+public class Customer {
+	String adress;
+	String name;
+	
+	public String getCreditRating() {
+		String a;
+		return a;
+	}
+}

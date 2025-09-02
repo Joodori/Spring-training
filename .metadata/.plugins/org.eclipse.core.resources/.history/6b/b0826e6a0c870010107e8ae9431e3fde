@@ -1,0 +1,12 @@
+package basic;
+
+public class AnootationTest {
+	public static void main(String[] args) {
+		//Annotation?
+		// => 변수는 아니다. 함수도 아니고, 클래스도 아니고, 패키지도 아니다.
+		// 주로 Annotation은 마킹용도로 사용한다.
+		
+		
+		
+	}
+}

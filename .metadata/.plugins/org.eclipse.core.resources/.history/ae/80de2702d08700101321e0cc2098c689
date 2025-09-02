@@ -1,0 +1,28 @@
+package myspring;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EmpMainSpring {
+	public static void main(String[] args) throws Exception {
+		int deptNo = 60;
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+		EmpService service = (EmpService) context.getBean(EmpService.class);
+		
+		String firstName = null;
+		String lastName = "King";
+		Emp emp = service.getEmpByFirstNLastName(firstName, lastName);
+		System.out.println(emp);
+
+	}
+}

@@ -1,0 +1,17 @@
+package addrbook;
+
+import java.util.List;
+
+public class AddrBookInsertingMain {
+	public static void main(String[] args) throws Exception {
+		System.out.println("Addrbook Inserting Main");
+		
+		AddrBookVO vo = new AddrBookVO();
+		vo.abName = "asd";
+		vo.abEmail = "asd@asd";
+		vo.abTel = "010-1000-1000";
+		vo.abComdept = "111";
+		vo.abBirth = "2000-00-00";
+		AddrBookDAO.insertDB(vo);
+	}
+}

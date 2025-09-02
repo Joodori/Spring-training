@@ -1,0 +1,17 @@
+package myspring;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AssignTest { //입사년도, 부서번호
+	public static void main(String[] args) throws Exception {
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+		EmpService service = (EmpService) context.getBean(EmpService.class);
+		List<Emp> empList = service.findEmpByYear(2010);
+		for (Emp emp : empList) {
+			System.out.println(emp);
+		}
+	}
+}

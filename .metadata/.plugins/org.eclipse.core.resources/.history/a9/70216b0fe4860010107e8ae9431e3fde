@@ -1,0 +1,43 @@
+package customer;
+
+public class CustomerMain {
+	
+	public class Customer {
+		String adress;
+		String name;
+
+		public String getCreditRating(String name, String contactName, int creditRating) {
+			String txt = "";
+			
+			
+			return txt;
+		}
+	}
+	
+	public class CoperateCustomer extends Customer {
+		String contactName;
+		int creditLimit;
+		int creditRating;
+		CoperateCustomer(String name, String address, String contactName, int creditLimit, int creditRating) {
+			super.name = name;
+			super.adress = address;
+			this.contactName = contactName;
+			this.creditLimit = creditLimit;
+			this.creditRating = creditRating;
+		}
+	}
+	
+	public class PersonalCustomer extends Customer {
+		String creditCardNumber;
+		
+		PersonalCustomer(String name, String adress, String creditCardNumber) {
+			super.name = name;
+			super.adress = adress;
+			this.creditCardNumber = creditCardNumber;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

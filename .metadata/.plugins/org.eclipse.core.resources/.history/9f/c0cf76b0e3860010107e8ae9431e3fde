@@ -1,0 +1,21 @@
+package customer;
+
+public class CustomerMain {
+	
+	public class Customer {
+		String adress;
+		String name;
+
+	}
+	
+	public class CoperateCustomer extends Customer {
+		String contactName;
+		int creditLimit;
+		int creditRating;
+	}
+	
+	
+	public static void main(String[] args) {
+
+	}
+}

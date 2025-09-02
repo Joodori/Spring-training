@@ -1,0 +1,14 @@
+package addrbook;
+
+import java.util.List;
+
+public class AddrBookDeleteMain {
+	public static void main(String[] args) throws Exception  {
+		System.out.println("Addrbook Delete Main");
+		
+		AddrBookVO vo = new AddrBookVO();
+		vo.abName = "asd";
+		vo.abBirth = "123";
+		new AddrBookDAO().deleteDB(vo);
+	}
+}

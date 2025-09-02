@@ -1,0 +1,23 @@
+package customer;
+
+public class CoperateCustomer extends Customer {
+	String contactName;
+	int creditLimit;
+	int creditRating;
+	
+	public CoperateCustomer(String contactName, int creditLimit, int creditRating) {
+		super(address, name);
+		this.contactName = contactName;
+		this.creditLimit = creditLimit;
+		this.creditRating = creditRating;
+	}
+
+	public String getCreditRating(CoperateCustomer customer) {
+		String customerName = customer.name;
+		int rating = customer.creditRating;
+		
+		String txt = customer.contactName + "과(와) " + customerName + "의 신용점수는 " + rating + "입니다.";
+		System.out.println(txt);
+		return txt;
+	}
+}

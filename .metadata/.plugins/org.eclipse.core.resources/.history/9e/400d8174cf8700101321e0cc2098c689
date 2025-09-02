@@ -1,0 +1,51 @@
+package myspring;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.sql.DataSource;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmpDAO {
+
+	
+	@Autowired
+	SqlSession session;
+	
+	// 1번 입력 : 이름
+	public List<Emp> findEmpByFirstName(String firstName) {
+		return session.selectList("findEmpByFirstName", firstName);
+	}
+
+	// 2번 입력 : 입사년도
+	public List<Emp> findEmpByYear(int year){
+		return session.selectList("findEmpByYear", year);
+	}
+
+	
+	// 3번 입력 : 부서번호
+	public List<Emp> findEmpByDeptId(int deptId) {
+		return session.selectList("findEmpByDeptId",deptId);
+	}
+	
+	// 4번 입력 : 도시이름
+	public List<Emp> findEmpByCityName(String cityName) {
+		return session.selectList("findEmpByCityName", cityName);
+	}
+
+	public Emp getEmpByFirstNLastName(String firstName, String lastName) {
+		return (Emp) session.selectMap("getEmpByFirstNLastName",firstName,lastName);
+	}
+	
+	// 5번 입력 : 성, 명을 전달받아서 그 이름에 해당하는 사원정보를 리턴함
+	
+}

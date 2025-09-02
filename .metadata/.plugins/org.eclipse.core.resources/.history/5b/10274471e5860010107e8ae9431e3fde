@@ -1,0 +1,6 @@
+package customer;
+
+public abstract class Customer {
+	abstract String name;
+	abstract String address;
+}

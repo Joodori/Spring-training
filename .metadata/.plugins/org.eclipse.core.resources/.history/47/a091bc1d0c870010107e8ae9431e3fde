@@ -1,0 +1,9 @@
+package basic;
+
+import java.util.ArrayList;
+
+public class AnootationTest {
+	public static void main(String[] args) {
+		String[] list = new ArrayList<String>();
+	}
+}

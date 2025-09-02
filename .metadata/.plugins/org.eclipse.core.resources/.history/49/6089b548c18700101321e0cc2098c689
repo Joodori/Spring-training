@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper-emp">
+	<select id="getEmpById" resultType="myspring.Emp">
+		select last_name lastName
+		, first_name firstName
+		, employee_id id
+		from employees
+		where employee_id =
+		#{id}
+	</select>
+
+<!-- select <테이블의 컬럼> <VO객체의 변수이름을 알리아스로 설정> -->
+	<select id="getEmpListByDeptNo" parameterType="int" resultType="myspring.Emp">
+		select last_name lastName
+		, first_name firstName
+		, employee_id id
+		, salary salary
+		from employees
+		where department_id =
+		#{deptId}
+	</select>
+
+	<select id="getEmpByJobId" parameterType="String" resultType="myspring.Emp">
+		select last_name lastName
+		, first_name firstName
+		, employee_id id
+		, job_id jobId
+		, salary salary
+		from employees
+		where job_id =
+		#{jobId}
+	</select>
+	
+	<select id="findEmpByYear" parameterType="Integer" resultType="myspring.Emp">
+		select last_name lastName
+		, first_name firstName
+		, employee_id empId
+		, salary salary
+		from employees
+		where hire_date =
+		#{hireDate}
+	</select>
+	
+	<select id="findEmpByDeptId" parameterType="Integer" resultType="myspring.Emp">
+		selecet last_name lastName
+		, first_name firstName
+		, employee_id empId
+		, department_id deptId
+		from employees
+		where department_id = 
+		#{deptId}
+	</select>
+</mapper>

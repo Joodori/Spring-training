@@ -1,0 +1,15 @@
+package myjdbc;
+
+public class VariableObject {
+	public static void main(String[] args) {
+		Product product1;
+		product1 = new Product();
+	}
+}
+
+
+class Product {
+	int price;
+	String name;
+	String maker;
+}

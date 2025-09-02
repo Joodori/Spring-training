@@ -1,0 +1,53 @@
+package addrbook;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class AddrBookDAO {
+	static String sql = "select * from employees where DEPARTMENT_ID = ";
+	static String userName = "hr";
+	static String password = "hr";
+	static String sqlInsertDB = "insert into addrbook(AB_ID,AB_NAME,ab_email,ab_comdept,ab_birth,ab_tel,ab_memo) "
+											+ "values(ab_seq.nextval,?,?,?,?,?,?)";
+
+
+	public boolean insertDB(AddrBookVO ab) throws Exception {
+		Connection connection = null;
+		PreparedStatement pstmt = connection.prepareStatement(sqlInsertDB);
+		boolean result= false;
+		try {
+			//AB_ID,AB_NAME,ab_email,ab_comdept,ab_birth,ab_tel,ab_memo) "
+			pstmt.setString(1, ab.getAbName());
+			pstmt.setString(2, ab.getAbEmail());
+			pstmt.setString(3, ab.getAbComdept());
+			pstmt.setString(4, ab.getAbBirth());
+			pstmt.setString(5, ab.getAbTel());
+			pstmt.setString(6, ab.getAbMemo());
+			result= pstmt.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	public List<AddrBookVO> getDBList() throws Exception {
+		List<AddrBookVO> result = new ArrayList<AddrBookVO>();
+		result = SessionUtil.getSession().selectList("getDBList");
+		return result;
+	}
+
+	public List<AddrBookVO> getDB(int abId) {
+		return null;
+	}
+	public boolean updateDB(AddrBookVO ab) throws Exception {
+		return false;
+	}
+	public boolean deleteDB(int abId) throws Exception {
+		return false;
+	}
+}

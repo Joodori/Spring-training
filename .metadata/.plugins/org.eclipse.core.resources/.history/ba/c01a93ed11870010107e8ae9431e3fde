@@ -1,0 +1,50 @@
+// 전달받은 문자열이 회문(앞으로나 뒤로나 동일한 문자열) 문자열인지를 체크하는 메서드를 완성하시오.
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class test2 {
+	public static void main(String[] args) {
+
+		Check.checkText("abcca");
+	}
+
+	class Check {
+		String text;
+
+		public static boolean checkText(String text) {
+			int sum = 0;
+			if (text.length() % 2 == 0) {
+
+				for (int i = 0; i < text.length(); i++) {
+					if (text.charAt(i) == text.charAt(text.length() - (i + 1))) {
+
+					} else {
+						sum += 1;
+					}
+				}
+				if (sum > 0 ) {
+					System.out.println("앞뒤가 다르대요");
+				} else {
+					System.out.println("앞뒤가 같아요");
+				}
+
+				return false;
+			} else {
+				for (int i = 0; i < text.length(); i++) {
+					if (text.charAt(i) == text.charAt(text.length()- (i+1) )) {
+						
+					} else {
+						sum += 1;
+					}
+				}
+				if (sum > 0 ) {
+					System.out.println("앞뒤가 다르대요");
+				} else {
+					System.out.println("앞뒤가 같아요");
+				}
+				return true;
+			}
+		}
+	}
+}
