@@ -2,7 +2,7 @@
 *   [의존성 주입](#의존성-주입)
 *   [Bean 이란?](#Bean-이란)
 *   [인터페이스?](#인터페이스)
-*   [인터페이스?](#인터페이스)
+*   [Bean태그 ref?](#Bean-태그-ref)
    
 
 ---
@@ -207,7 +207,76 @@ Q) service라는 객체는 getEmpListByDeptNo를 쓸 수 있나요?
 
 A) EmpService라는 인터페이스를 EmpServiceImpl에서 구현하고있기 때문입니다 !
 ```
-그렇다면 우리는   
+ 
+
+
+---
+## Bean 태그 ref?
+### xml파일에 작성하는 Beans 태그 안에 있는 Bean태그 내부에 있는 property에 ref는 뭐지?
+```java
+// A 클래스 (단순 속성들)
+
+class A {
+    private int age;
+    private String name;
+    
+    // setter 메서드들
+    public void setAge(int age) { this.age = age; }
+    public void setName(String name) { this.name = name; }
+}
+
+// B 클래스 (A 객체를 포함)
+class B {
+    private A a;           // 다른 객체를 참조
+    private String address; // 단순 값
+    
+    // setter 메서드들
+    public void setA(A a) { this.a = a; }                    // 객체 주입
+    public void setAddress(String address) { this.address = address; } // 값 주입
+}
+```
+---
+```java
+<!-- A 객체에 해당 (dataSource 빈) -->
+<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/> <!-- 단순 값 -->
+    <property name="username" value="root"/>                              <!-- 단순 값 -->
+</bean>
+
+<!-- B 객체에 해당 (sqlSessionFactory 빈) -->
+<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <property name="dataSource" ref="dataSource"/>          <!-- 다른 객체 참조 (A a) -->
+    <property name="mapperLocations" value="classpath:..."/> <!-- 단순 값 (String address) -->
+</bean>
+```
+그저 A.setB(new B())에서 더 발전된 느낌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
