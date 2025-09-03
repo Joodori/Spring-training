@@ -3,7 +3,7 @@
 *   [Bean 이란?](#Bean-이란)
 *   [인터페이스?](#인터페이스)
 *   [Bean태그 ref?](#Bean-태그-ref)
-*   [Spring MVC](#Spring-MVC-관계)
+*   [Spring MVC?](#Spring-MVC-관계)
    
 
 ---
