@@ -3,6 +3,7 @@
 *   [Bean 이란?](#Bean-이란)
 *   [인터페이스?](#인터페이스)
 *   [Bean태그 ref?](#Bean-태그-ref)
+*   [Spring MVC](#Spring-MVC-관계)
    
 
 ---
@@ -249,13 +250,154 @@ class B {
     <property name="mapperLocations" value="classpath:..."/> <!-- 단순 값 (String address) -->
 </bean>
 ```
-그저 A.setB(new B())에서 더 발전된 느낌
+<property name="dataSource" ref="dataSource"/>  <!-- ← 여기서 "주입" 발생 -->
+b.setA(a);
+
+이 부분이 같은데 b.setA(new A())로 하지 않았기 때문에 의존주입이 되는 부분임 아래 내용은 추가적으로 확인
 
 
+스프링 컨테이너가 관리하는 생명주기
+빈 정의(Bean Definition) 읽기
+XML이나 @Configuration 클래스에서 빈 설정 정보를 읽고, 의존관계 그래프를 구성합니다.
+
+의존관계 분석
+B 빈이 A 빈을 필요로 한다는 사실(ref="a", setA 메서드 등)을 확인합니다.
+
+의존관계 순서에 따라 빈 생성
+
+A 빈을 먼저 생성 및 초기화
+
+그 다음에 B 빈을 생성하되, 생성 시점에 이미 만들어진 A 빈을 주입
+
+이 과정을 자동으로 처리하기 때문에, 개발자는 빈 생성 순서를 신경 쓸 필요가 없습니다.
+// 느슨한 결합을 해서 좋은 점은 무언가가 많이 연결되어있지 않기 때문에 어떤 부분을 수정을 해도 전체가 망가지거나 그러지는 않음
 
 
+## Spring MVC 관계
+---
 
+Spring MVC 관계
 
+네, Spring MVC의 동작 흐름을 아주 기초적인 단계부터 차근차근 설명해드리겠습니다!
+
+🎯 Spring MVC 동작 흐름 - 기초부터 차근차근
+1단계: 클라이언트의 요청 (Request)
+사용자가 웹 브라우저에서 URL을 입력하고 엔터를 치는 순간
+
+예: http://localhost:8080/myapp/hello.do
+
+브라우저가 서버로 HTTP 요청을 보냅니다
+
+2단계: DispatcherServlet이 요청을 받음
+"모든 요청의 첫 번째 관문"
+
+DispatcherServlet은 프론트 컨트롤러(Front Controller) 역할
+
+마치 "접수처 직원"과 같아서, 모든 요청을 가장 먼저 받습니다
+
+web.xml에서 설정한 URL 패턴에 해당하는 요청만 받습니다
+
+java
+// 이렇게 생각해보세요
+"안녕하세요, 무엇을 도와드릴까요?" - DispatcherServlet
+3단계: HandlerMapping이 담당 컨트롤러를 찾음
+"어느 부서로 가야 할지 안내해주는 안내데스크"
+
+/hello.do 요청이 왔으니, 이를 처리할 컨트롤러를 찾습니다
+
+@RequestMapping("/hello.do")가 붙은 컨트롤러 메서드를 찾아줍니다
+
+java
+"'/hello.do' 요청은 HelloController의 hello() 메서드가 처리합니다!" - HandlerMapping
+4단계: HandlerAdapter가 컨트롤러를 실행
+"실제 업무를 수행하는 부서와의 연결고리"
+
+찾은 컨트롤러를 실제로 실행시켜줍니다
+
+다양한 종류의 컨트롤러들을 통일된 방식으로 호출할 수 있게 해줍니다
+
+5단계: Controller(컨트롤러)가 비즈니스 로직 처리
+"실제 일을 하는 담당 부서"
+```java
+java
+@Controller
+public class HelloController {
+    @RequestMapping("/hello.do")
+    public String hello() {
+        // 여기서 실제 업무 처리
+        // 예: 데이터베이스 조회, 계산 등
+        return "hello"; // 뷰 이름 반환
+    }
+}
+```
+6단계: Controller가 결과를 DispatcherServlet에 반환
+"처리 결과 보고"
+
+컨트롤러가 처리한 결과와 보여줄 화면 정보를 반환합니다
+
+보통 ModelAndView 객체 형태로 반환됩니다
+
+Model: 화면에 보여줄 데이터
+
+View: 어떤 화면(JSP 파일)을 보여줄지
+
+7단계: ViewResolver가 실제 View 파일을 찾음
+"화면 파일을 찾아주는 도서관 사서"
+
+컨트롤러가 반환한 뷰 이름("hello")을 실제 파일 경로로 변환
+
+예: "hello" → /WEB-INF/views/hello.jsp
+```java
+xml
+<!-- servlet-context.xml 설정 -->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/WEB-INF/views/"/>
+    <property name="suffix" value=".jsp"/>
+</bean>
+```
+8단계: View가 최종 HTML을 생성
+"실제 화면을 그려주는 디자이너"
+
+JSP 파일이 실행되어 최종 HTML 페이지를 만듭니다
+
+컨트롤러에서 전달받은 데이터를 HTML에 채워 넣습니다
+
+9단계: 최종 응답을 클라이언트에게 전달 (Response)
+"완성된 웹페이지를 사용자에게 보여줌"
+
+생성된 HTML이 사용자의 웹 브라우저로 전송됩니다
+
+사용자는 최종 완성된 웹페이지를 볼 수 있습니다
+
+🏢 쉬운 비유로 이해하기
+Spring MVC = 대형 회사의 업무 처리 시스템
+
+고객(Client): "안녕하세요, 계좌 조회 부탁드립니다"
+
+접수처(DispatcherServlet): "네, 접수했습니다"
+
+안내데스크(HandlerMapping): "계좌 조회는 2층 은행업무팀으로 가세요"
+
+연결담당자(HandlerAdapter): "은행업무팀에 연결해드릴게요"
+
+실무담당자(Controller): "계좌 조회 완료! 결과는 화면으로 보여드리겠습니다"
+
+화면담당자(ViewResolver): "고객용 화면 템플릿을 준비하겠습니다"
+
+최종화면(View): "여기 계좌 조회 결과입니다!"
+
+고객: "감사합니다!" (완성된 웹페이지 확인)
+
+⭐ 핵심 포인트
+DispatcherServlet: 모든 요청의 중앙 관제소 역할
+
+분업: 각 컴포넌트가 명확한 역할을 가지고 협력
+
+유연성: 컨트롤러, 뷰 등을 독립적으로 개발 가능
+
+재사용성: 한 번 만든 컴포넌트를 여러 곳에서 활용 가능
+
+이렇게 Spring MVC는 체계적이고 단계적인 요청 처리를 통해 복잡한 웹 애플리케이션을 효율적으로 관리할 수 있게 해줍니다!
 
 
 
