@@ -5,7 +5,7 @@
 *   [인터페이스?](#인터페이스)
 *   [Bean태그 ref?](#Bean-태그-ref)
 *   [Spring MVC?](#Spring-MVC-관계)
-*   [Log 찍기](#Log-찍기)
+*   [Log 찍기(AOP)](#Log-찍기(AOP))
 
 ---
 ## 의존성 주입
@@ -434,7 +434,7 @@ DispatcherServlet: 모든 요청의 중앙 관제소 역할
 
 
 
-## Log 찍기
+## Log 찍기(AOP)
 ---
 아니 나는 대체 코딩을 하는데 로그는 왜 찍어야하는거야? 
 
