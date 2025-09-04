@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Fri Aug 29 12:21:54 KST 2025
+#Thu Sep 04 17:39:31 KST 2025
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\LX\\.m2\\repository\\org\\springframework\\spring-web\\6.1.9\\spring-web-6.1.9.jar=WEB-INF/lib/spring-web-6.1.9.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\LX\\.m2\\repository\\org\\springframework\\spring-web\\6.2.10\\spring-web-6.2.10.jar=WEB-INF/lib/spring-web-6.2.10.jar

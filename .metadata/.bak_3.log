@@ -1,4 +1,4 @@
-!SESSION 2025-09-02 08:39:50.166 -----------------------------------------------
+!SESSION 2025-09-03 08:49:08.697 -----------------------------------------------
 eclipse.buildId=4.33.0.20240905-0613
 java.version=21.0.4
 java.vendor=Eclipse Adoptium
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\lx\spring-workspace\.metadata\.bak_2.log
-Created Time: 2025-09-02 10:13:27.326
+Created Time: 2025-09-03 10:36:59.733
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:27.326
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:36:59.733
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -78,7 +78,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:27.608
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:36:59.758
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -147,7 +147,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:27.889
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:36:59.935
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -216,7 +216,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:28.172
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:36:59.967
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -285,7 +285,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:28.454
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:36:59.997
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -354,7 +354,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:28.734
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.026
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -423,7 +423,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:29.017
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.056
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -492,7 +492,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:29.299
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.085
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -561,7 +561,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:29.583
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.116
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -630,7 +630,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:29.866
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.146
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -699,7 +699,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:30.158
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.178
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -768,7 +768,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:30.480
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.208
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -837,7 +837,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:30.773
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.237
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -906,7 +906,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:31.057
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.267
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -975,7 +975,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:31.340
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.296
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1044,7 +1044,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:31.625
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.325
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1113,7 +1113,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:31.906
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.353
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1182,7 +1182,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:32.189
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.381
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1251,7 +1251,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:32.475
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.408
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1320,7 +1320,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:32.758
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.439
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1389,7 +1389,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:33.043
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.466
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1458,7 +1458,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:33.329
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.495
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1527,7 +1527,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:33.619
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.525
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1596,7 +1596,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:34.022
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.558
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1665,7 +1665,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:34.314
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.589
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1734,7 +1734,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:34.604
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.619
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1803,7 +1803,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:34.898
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.649
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1872,7 +1872,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:35.189
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.680
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -1941,7 +1941,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:35.474
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.711
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2010,7 +2010,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:35.759
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.740
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2079,7 +2079,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:36.042
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.769
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2148,7 +2148,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:36.330
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.799
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2217,7 +2217,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:36.625
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.829
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2286,7 +2286,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:36.922
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.859
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2355,7 +2355,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:37.220
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.887
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2424,7 +2424,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:37.517
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.916
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2493,7 +2493,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:37.806
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.945
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2562,7 +2562,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:38.090
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:00.974
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2631,7 +2631,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:38.378
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.003
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2700,7 +2700,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:38.664
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.032
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2769,7 +2769,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:38.956
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.062
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2838,7 +2838,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:39.248
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.092
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2907,7 +2907,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:39.542
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.111
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -2976,7 +2976,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:39.835
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.150
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3045,7 +3045,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:40.124
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.180
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3114,7 +3114,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:40.408
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.209
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3183,7 +3183,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:40.702
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.238
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3252,7 +3252,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:41.000
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.268
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3321,7 +3321,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:41.299
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.289
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3390,7 +3390,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:41.606
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.327
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3459,7 +3459,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:41.904
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.357
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3528,7 +3528,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:42.193
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.386
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3597,7 +3597,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:42.506
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.413
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3666,7 +3666,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:42.809
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.441
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3735,7 +3735,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:43.097
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.472
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3804,7 +3804,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:43.389
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.499
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3873,7 +3873,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:43.683
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.527
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -3942,7 +3942,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:44.015
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.557
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4011,7 +4011,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:44.297
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.584
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4080,7 +4080,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:44.585
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.616
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4149,7 +4149,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:44.874
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.644
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4218,7 +4218,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:45.158
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.673
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4287,7 +4287,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:45.443
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.701
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4356,7 +4356,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:45.733
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.732
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4425,7 +4425,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:46.023
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.752
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4494,7 +4494,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:46.309
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.792
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4563,7 +4563,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:46.614
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.822
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4632,7 +4632,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:46.908
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.852
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4701,7 +4701,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:47.196
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:01.884
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4770,7 +4770,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:47.485
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.051
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4839,7 +4839,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:47.770
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.088
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4908,7 +4908,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:48.058
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.112
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -4977,7 +4977,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:48.355
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.134
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5046,7 +5046,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:48.650
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.159
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5115,7 +5115,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:48.944
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.180
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5184,7 +5184,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:49.239
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.206
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5253,7 +5253,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:49.529
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.225
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5322,7 +5322,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:49.821
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.253
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5391,7 +5391,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:50.114
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.277
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5460,7 +5460,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:50.405
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.300
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5529,7 +5529,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:50.699
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.319
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5598,7 +5598,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:50.987
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.344
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5667,7 +5667,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:51.286
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.369
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5736,7 +5736,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:51.578
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.393
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5805,7 +5805,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:51.874
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.413
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5874,7 +5874,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:52.170
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.440
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -5943,7 +5943,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:52.458
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.463
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6012,7 +6012,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:52.742
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.488
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6081,7 +6081,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:53.031
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.513
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6150,7 +6150,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:53.320
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.533
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6219,7 +6219,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:53.609
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.556
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6288,7 +6288,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:53.902
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.582
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6357,7 +6357,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:54.189
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.601
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6426,7 +6426,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:54.484
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.628
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6495,7 +6495,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:54.776
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.651
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6564,7 +6564,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:54.809
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.673
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6633,7 +6633,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:55.373
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.697
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6702,7 +6702,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:55.655
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.721
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6771,7 +6771,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:55.940
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.745
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6840,7 +6840,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:56.229
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.768
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6909,7 +6909,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:56.516
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.787
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -6978,7 +6978,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:56.805
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.815
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7047,7 +7047,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:57.094
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.841
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7116,7 +7116,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:57.386
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.865
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7185,7 +7185,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:57.674
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.887
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7254,7 +7254,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:57.959
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.911
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7323,7 +7323,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:58.245
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.934
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7392,7 +7392,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:58.529
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.959
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7461,7 +7461,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:58.831
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:02.984
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7530,7 +7530,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:59.125
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.008
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7599,7 +7599,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:59.421
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.032
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7668,7 +7668,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:13:59.715
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.076
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7737,7 +7737,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:00.007
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.101
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7806,7 +7806,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:00.294
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.124
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7875,7 +7875,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:00.590
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.148
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -7944,7 +7944,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:00.892
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.172
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8013,7 +8013,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:01.188
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.196
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8082,7 +8082,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:01.473
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.222
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8151,7 +8151,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:01.758
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.246
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8220,7 +8220,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:02.041
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.270
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8289,7 +8289,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:02.328
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.293
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8358,7 +8358,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:02.615
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.316
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8427,7 +8427,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:02.903
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.340
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8496,7 +8496,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:03.187
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.362
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8565,7 +8565,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:03.476
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.386
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8634,7 +8634,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:03.774
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.409
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8703,7 +8703,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:04.070
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.435
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8772,7 +8772,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:04.363
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.459
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8841,7 +8841,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:04.648
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.482
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8910,7 +8910,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:04.935
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.505
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -8979,7 +8979,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:05.227
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.552
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9048,7 +9048,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:05.524
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.578
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9117,7 +9117,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:05.883
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.602
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9186,7 +9186,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:06.178
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.626
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9255,7 +9255,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:06.470
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.650
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9324,7 +9324,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:06.813
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.675
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9393,7 +9393,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:07.108
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.701
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9462,7 +9462,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:07.392
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.719
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9531,7 +9531,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:07.685
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.748
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9600,7 +9600,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:07.974
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.772
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9669,7 +9669,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:08.264
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.797
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9738,7 +9738,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:08.552
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.822
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9807,7 +9807,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:08.843
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.841
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9876,7 +9876,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:09.141
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.869
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -9945,7 +9945,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:09.439
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.894
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10014,7 +10014,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:09.748
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.920
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10083,7 +10083,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:10.057
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.943
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10152,7 +10152,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:10.352
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.968
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10221,7 +10221,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:10.644
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:03.993
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10290,7 +10290,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:10.938
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:04.018
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10359,7 +10359,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:11.228
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:04.046
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)
@@ -10428,7 +10428,7 @@ Caused by: java.lang.IllegalArgumentException: The value '2.0' is not a valid en
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2720)
 	... 52 more
 
-!ENTRY org.eclipse.core.jobs 4 2 2025-09-02 10:14:11.521
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-03 10:37:04.071
 !MESSAGE An internal error occurred during: "Loading descriptor for spring.".
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.eclipse.emf.ecore.xmi.IllegalValueException: Value '2.0' is not legal. (platform:/resource/spring/src/main/webapp/WEB-INF/web.xml, 4, 109)

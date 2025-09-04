@@ -96,12 +96,12 @@ public class AssignTest { // 입사년도, 부서번호
 		}
 	}
 
-	public static EmpService setService() {
+	private static EmpService setService() {
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
 		return context.getBean(EmpService.class);
 	}
 
-	public static void printList(List<Emp> list) {
+	private static void printList(List<Emp> list) {
 		if (list.size() == 0) {
 			System.out.println("그런 정보를 가진 직원은 없어요");
 		}

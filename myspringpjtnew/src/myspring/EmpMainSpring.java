@@ -10,17 +10,20 @@ import java.util.List;
 import java.util.Scanner;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class EmpMainSpring {
 	public static void main(String[] args) throws Exception {
 		int deptNo = 60;
 
-		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+//		ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+//		==
+		ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
 		EmpService service = (EmpService) context.getBean(EmpService.class);
 		
-		String firstName = "Samuel";
-		String lastName = null;
+		String firstName = null;
+		String lastName = "King";
 		List<Emp> empList = service.getEmpByFirstNLastName(firstName, lastName);
 		
 		if (empList.size() == 0 ) {
