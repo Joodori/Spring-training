@@ -300,13 +300,10 @@ Autowired로 되어있는 것 또한 ref와 동일한 역할을 하는건지 궁
 네, 맞습니다. @Autowired와 XML의 ref 속성 둘 다 Spring의 의존성 주입(Dependency Injection) 메커니즘을 사용합니다.
 다만, 설정 방식(@Autowired는 애노테이션 기반, ref는 XML 기반)과 매칭 방식(byType vs byName)에 차이가 있을 뿐,
 궁극적으로는 컨테이너가 필요한 빈을 주입해 주는 동일한 역할을 수행합니다.
-
+```
 ** @Autowired: byType (타입으로 매칭) - Spring이 자동으로 같은 타입의 빈을 찾아서 주입 **
 
 ** XML ref: byName (ID/이름으로 매칭) - 개발자가 명시적으로 지정한 빈의 ID를 참조 **
-
-```
-
 
 ## Spring MVC 관계
 ---
