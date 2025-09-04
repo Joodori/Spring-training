@@ -4,7 +4,7 @@
 *   [인터페이스?](#인터페이스)
 *   [Bean태그 ref?](#Bean-태그-ref)
 *   [Spring MVC?](#Spring-MVC-관계)
-   
+*   [Log 찍기](#Log-찍기)
 
 ---
 ## 의존성 주입
@@ -433,12 +433,79 @@ DispatcherServlet: 모든 요청의 중앙 관제소 역할
 
 
 
+## Log 찍기
+---
+아니 나는 대체 코딩을 하는데 로그는 왜 찍어야하는거야? 
 
+그냥 내가 하는 부분에서 콘솔창이나 크롬의 개발자모드의 콘솔에서 에러를 잘 잡는데??? 라는 의문점이 생겼다.
 
+```text
+- 운영 환경에서는 콘솔 출력으로 문제를 추적할 수 없어, 파일이나 중앙 로깅 시스템에 기록해야 신속한 대응과 원인 분석이 가능하다.
 
+- 로깅은 장기적인 히스토리 관리를 통해 에러 빈도 및 성능 추세 분석에 유용하다.
 
+- 다양한 로그 레벨을 활용하면 디버깅·포렌식 조사 시 실행 흐름과 변수 상태를 정확히 추적할 수 있다.
 
+- 중앙 로그 공유로 협업 효율성을 높이고, 자동 알림 기능을 통해 SLA를 준수하며 사용자 경험을 개선할 수 있다.
+```
+---
+그렇기 때문에 Log를 남기는 법을 알아보자.
 
+1. pom.xml에 dependency추가하기
+```java
+		<!-- SLF4J API -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.36</version>
+		</dependency>
+		<!-- SLF4J → Log4j 바인딩 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.36</version>
+		</dependency>
+		<!-- Log4j Core -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+```
+이렇게 총 3개의 dependency를 추가해준다.
+
+2. log4j.xml 파일 생성하기
+구글에 'log4j.xml 설정'을 검색하면 AI요약같은거로 나오는데
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration>
+
+    <!-- Appender: 로그를 출력할 위치 설정 -->
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <!-- 패턴 정의: 날짜/시간 [레벨] 로그 내용 -->
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%-5p] %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <!-- Logger: 특정 패키지에 대한 로그 설정 -->
+    <logger name="com.example.myapp">
+        <level value="INFO"/>
+        <appender-ref ref="console"/>
+    </logger>
+
+    <!-- Root Logger: 기본 로거 설정 -->
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="console"/>
+    </root>
+
+</log4j:configuration>
+```
+이걸 그대로 복사해서 src/main/resources라는 경로에 new > file > log4j.xml 저장
+
+복사한 다음 logger name을 바꿔주면 된다.
 
 
 
