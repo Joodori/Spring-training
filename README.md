@@ -452,7 +452,8 @@ DispatcherServlet: 모든 요청의 중앙 관제소 역할
 ---
 그렇기 때문에 Log를 남기는 법을 알아보자.
 
-1. pom.xml에 dependency추가하기
+#### 1. pom.xml에 dependency추가하기
+---
 ```java
 		<!-- SLF4J API -->
 		<dependency>
@@ -475,7 +476,8 @@ DispatcherServlet: 모든 요청의 중앙 관제소 역할
 ```
 이렇게 총 3개의 dependency를 추가해준다.
 
-2. log4j.xml 파일 생성하기
+#### 2. log4j.xml 파일 생성하기
+---
 구글에 'log4j.xml 설정'을 검색하면 AI요약같은거로 나오는데
 ```java
 <?xml version="1.0" encoding="UTF-8"?>
@@ -509,10 +511,76 @@ DispatcherServlet: 모든 요청의 중앙 관제소 역할
 복사한 다음 logger name을 바꿔주면 된다.
 
 
+#### 3. spring-context.xml 파일에 이것저것 추가하기
+---
+- **xmlns:aop="http://www.springframework.org/schema/aop"**
+
+- **http://www.springframework.org/schema/aop** 
+
+- **https://www.springframework.org/schema/aop/spring-aop.xsd**
+
+- **<aop:aspectj-autoproxy></aop:aspectj-autoproxy>** 
+
+이렇게 추가해주면 된다. 각 코드를 알맞은 위치에 추가해야한다. 일단 저것들은 AOP에서 필요하다
+
+#### 4. AOP를 사용하기 위해 LogAdvice.
+AOP에대해서 잘 알려주는 블로그 : <https://engkimbs.tistory.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81AOP>
+
+일단 aspects를 찾아낼 수 있는 의존성을 pom.xml에 추가해주자
+---
+```java
+<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+			<version>6.2.10</version>
+		</dependency>
+```
+---
+보조업무(우리한테는 로그찍기)를 구현하는 객체를 찾기위한 @Aspect를 쓰기위해 의존성을 추가해요
+#### 5. LogAdvice 클래스를 만들어주자
+```java
+package lx.edu.springmvc.aop;
 
 
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.stereotype.Component;
 
 
+@Aspect
+@Component
+@EnableAspectJAutoProxy
+public class LogAdvice {
+	
+	@Before("execution(* lx.edu.springmvc.controller.Addr*.*(..))")
+	public void beforeLog(JoinPoint joinPoint) {
+		System.out.println("LogAdvice.beforeLog()");
+		Class targetClass = joinPoint.getTarget().getClass();
+		String methodName = joinPoint.getSignature().getName();
+		System.out.printf("class=%s, method=%s\n",targetClass.getName(), methodName);
+	}
+
+}
+```
+---
+Aspect를 찾을 때는 LogAdvice를 찾을 수 있어
+
+Component로 스프링 빈(Bean)에 등록할게
+
+EnableAspectJAutoProxy 이거는 잘 모르겠지만 ApplicationContext에 AOP 프록시 생성기능을 활성화시켜준다는데
+
+그냥 자동으로 뭐가 된다라고 생각하면 될듯?
+
+#### 6. 그렇다면 용어들을 정리해볼까
+---
+- **Target : 보조업무가 적용되는 대상 // 비지니스 로직을 담고있는 객체를 의미함(lx.edu.springmvc.controller.Addr)**
+- **Joinpoin : Target이 가지고있는 메서드(insert(), list(), update()... )**
+- **Aspect : 보조업무를 구현하는 객체 (LogAdvice 클래스)**
+- **Advice : 보조업무를 해줄건데 언제 해줄까? (@Before? @After? @Around?)**
 
 
 
