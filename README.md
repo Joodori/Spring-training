@@ -577,14 +577,37 @@ EnableAspectJAutoProxy 이거는 잘 모르겠지만 ApplicationContext에 AOP �
 
 #### 6. 그렇다면 용어들을 정리해볼까
 ---
-- **Target : 보조업무가 적용되는 대상 // 비지니스 로직을 담고있는 객체를 의미함(lx.edu.springmvc.controller.Addr)**
-- **Joinpoin : Target이 가지고있는 메서드(insert(), list(), update()... )**
-- **Aspect : 보조업무를 구현하는 객체 (LogAdvice 클래스)**
-- **Advice : 보조업무를 해줄건데 언제 해줄까? (@Before? @After? @Around?)**
+| 용어          | 설명                                                       |
+| ------------- | ---------------------------------------------------------- |
+| **Target**    | 보조업무가 적용되는 대상 // 비지니스 로직을 담고있는 객체를 의미함(lx.edu.springmvc.controller.Addr)     |
+| **JoinPoint** | Target이 가지고있는 메서드(insert(), list(), update()... )                             |
+| **Pointcut**  | 어떤 클래스의 어느 Joinpoint를 사용 할 것인지 정확히 결정하는 것        |
+| **Advice**    | 보조업무를 해줄건데 언제 해줄까? (@Before? @After? @Around?)     |
+| **Aspect**    | 보조업무를 구현하는 객체 (LogAdvice 클래스)                  |
+| **Weaving**   | Aspect를 Target에 결합하는 과정 (컴파일·로드·런타임 위빙) |
 
 
 
+#### 정리 !
+1. **애플리케이션 구동 및 컨텍스트 초기화**
+   - `ApplicationContext`가 설정 파일(XML) 또는 `@Configuration` 클래스를 로드합니다.
+   - `@EnableAspectJAutoProxy` 또는 `<aop:aspectj-autoproxy/>`를 인식해 AOP 프록시 생성 기능을 활성화합니다.
 
+2. **Spring Bean 생성 및 프록시 등록**
+   - 컨테이너가 Controller, Service, Repository 등의 비즈니스 빈을 생성합니다.
+   - 포인트컷에 매칭된 빈은 **JDK 동적 프록시** 또는 **CGLIB 프록시**로 등록됩니다.
+
+3. **Aspect(Advice) 빈 생성**
+   - `@Aspect`와 `@Component`가 붙은 `LogAdvice` 빈이 생성됩니다.
+   - `execution(* lx.edu.springmvc.controller.Addr*.*(..))` 포인트컷을 분석해 적용 대상을 결정합니다.
+
+4. **런타임 위빙(Runtime Weaving)**
+   - 클라이언트의 URL 요청 → `DispatcherServlet` → Controller 호출 시
+   - 프록시가 `@Before` 어드바이스 `beforeLog()`를 실행하고, 이후 실제 타겟 메서드를 호출합니다.
+
+5. **로그 출력**
+   - `beforeLog()`에서 SLF4J/Log4j 로거로 로그를 기록합니다.
+   - 모든 매칭된 메서드에 일관되게 로그가 출력됩니다.
 
 
 
