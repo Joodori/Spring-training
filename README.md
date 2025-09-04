@@ -272,6 +272,41 @@ A 빈을 먼저 생성 및 초기화
 이 과정을 자동으로 처리하기 때문에, 개발자는 빈 생성 순서를 신경 쓸 필요가 없습니다.
 // 느슨한 결합을 해서 좋은 점은 무언가가 많이 연결되어있지 않기 때문에 어떤 부분을 수정을 해도 전체가 망가지거나 그러지는 않음
 
+---
+### @Autowired가 하는 역할은 뭘까?
+ref도 의존주입을 해주는 것 => Autowired도 new를 쓰지 않아도 되기때문에 사용하는 것으로 알고있는데 
+
+그러면 Autowired는 하는게 뭐야? 다음 예시 코드를 보자
+```java
+@Component
+public class AddrBookDAO {
+
+	@Autowired
+	SqlSession session;
+	
+	public int insertDB(AddrBookVO ab) throws Exception {
+		return session.insert("insertDB",ab);
+	}
+
+	public List<AddrBookVO> getDBList() throws Exception {
+		return session.selectList("getDBList");
+	}
+}	
+```
+여기서도 SqlSession이라는 클래스에 존재하는 함수를 호출해주는 것을 볼 수 있다.
+
+Autowired로 되어있는 것 또한 ref와 동일한 역할을 하는건지 궁굼해서 찾아본 결과는 다음과 같다.
+```
+네, 맞습니다. @Autowired와 XML의 ref 속성 둘 다 Spring의 의존성 주입(Dependency Injection) 메커니즘을 사용합니다.
+다만, 설정 방식(@Autowired는 애노테이션 기반, ref는 XML 기반)과 매칭 방식(byType vs byName)에 차이가 있을 뿐,
+궁극적으로는 컨테이너가 필요한 빈을 주입해 주는 동일한 역할을 수행합니다.
+
+** @Autowired: byType (타입으로 매칭) - Spring이 자동으로 같은 타입의 빈을 찾아서 주입
+
+** XML ref: byName (ID/이름으로 매칭) - 개발자가 명시적으로 지정한 빈의 ID를 참조
+
+```
+
 
 ## Spring MVC 관계
 ---
